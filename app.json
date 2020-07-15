@@ -1,0 +1,12 @@
+{
+  "name": "DoggoLingo",
+  "displayName": "DoggoLingo",
+  "expo": {
+    "name": "DoggoLingo",
+    "slug": "DoggoLingo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
