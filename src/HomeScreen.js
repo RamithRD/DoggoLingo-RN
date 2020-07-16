@@ -46,9 +46,7 @@ const HomeScreen = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.container} >
                 <View style={styles.imgContainer}>
-                    {/* <Image resizeMode='contain' source={ require('../assets/doggo_lingo.png')} style={styles.imgLogo}/> */}
-                    <LottieView source={require('../assets/happy_doggo.json')} autoPlay loop/>
-                    
+                    <LottieView source={require('../assets/happy_doggo.json')} autoPlay loop/>                    
                 </View>
 
                 <View style={styles.breedListContainer}>
@@ -88,8 +86,6 @@ const styles = StyleSheet.create({
     imgContainer: {
         flex: 1,
         flexDirection: 'column',
-    },
-    imgLogo: {
     },
     breedListContainer: {
         flex: 3,

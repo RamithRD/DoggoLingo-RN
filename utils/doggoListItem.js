@@ -4,8 +4,6 @@ import {Card} from 'react-native-elements';
 
 export default class DoggoListItem extends PureComponent {
   
-
-
   render(){
 
     function capitalizeFirstLetter(string) {

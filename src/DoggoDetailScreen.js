@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Image, Text, FlatList, StyleSheet, Dimensions } from 'react-native';
 import Axios from 'axios';
-import PlainText from '../utils/plainText';
 import {Card} from 'react-native-elements';
 
 const DoggoDetailScreen = ({ navigation }) => {
