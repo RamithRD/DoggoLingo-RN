@@ -62,7 +62,7 @@ const DoggoDetailScreen = ({ navigation }) => {
             </View>
             <View style={{flex: 2,}}>
                 <Card>
-                    <Text>{desc}</Text>
+                    <Text style={{fontSize: 20,}}>{desc}</Text>
                 </Card>
             </View>
         </View>
@@ -71,6 +71,14 @@ const DoggoDetailScreen = ({ navigation }) => {
 
 DoggoDetailScreen.navigationOptions = ({ navigation }) => ({
     title: navigation.getParam('breed'),
+    headerStyle:{
+        backgroundColor:'#b26972',
+
+    },
+    headerTitleStyle: {
+        color: 'white',
+    },
+    headerTintColor: 'white'  
 });
 
 export default DoggoDetailScreen;

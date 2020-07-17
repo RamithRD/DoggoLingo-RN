@@ -10,7 +10,7 @@ const AppNavigator = createStackNavigator({
     screen: HomeScreen
   },
   DoggoDetail: {
-    screen: DoggoDetailScreen,
+    screen: DoggoDetailScreen,   
   }
 })
 
